@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Besos — Nosotros & Sustentabilidad</title>
+  <style>
+    :root{
+      --bg:#fffdfc;
+      --accent:#e63946;
+      --primary:#6d4c41;
+      --soft:#ffe4e1;
+      --muted:#444;
+      --highlight:#fbc02d;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Poppins',sans-serif;background:var(--bg);color:var(--muted);line-height:1.6}
+    .container{max-width:1200px;margin:0 auto;padding:0 24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:2px solid #f0f0f0}
+    .logo{display:flex;align-items:center;gap:12px}
+    .logo-circle{width:60px;height:60px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+    .brand h1{margin:0;font-size:28px;color:var(--primary)}
+    .slogan{color:var(--accent);font-weight:500;margin-top:4px}
+    nav{display:flex;gap:18px}
+    nav a{color:var(--primary);text-decoration:none;font-weight:500;transition:0.3s}
+    nav a:hover{color:var(--accent)}
+    main{display:grid;grid-template-columns:2fr 1fr;gap:32px;margin:40px 0}
+    section.card{background:white;border-radius:16px;padding:28px;box-shadow:0 6px 24px rgba(0,0,0,0.05);margin-bottom:24px;transition:0.3s}
+    section.card:hover{transform:translateY(-4px)}
+    h2{margin-top:0;color:var(--primary);font-size:24px;border-left:6px solid var(--accent);padding-left:10px}
+    h3,h4{color:var(--primary)}
+    .list{margin:12px 0 0 20px}
+    footer{margin-top:40px;padding:20px 0;text-align:center;color:#777;font-size:14px;border-top:2px solid #f0f0f0}
+    .cta{display:inline-block;background:var(--accent);color:white;padding:12px 20px;border-radius:12px;text-decoration:none;font-weight:600;margin-top:12px;transition:0.3s}
+    .cta:hover{background:#c92a34}
+    .pill{display:inline-block;background:var(--soft);color:var(--primary);padding:6px 12px;border-radius:20px;font-weight:600;font-size:13px;margin:4px 4px 0 0}
+    .eco{display:flex;gap:12px;align-items:center;margin-top:10px}
+    .eco .icon{width:60px;height:60px;border-radius:16px;background:linear-gradient(135deg,#dff7ea,#b9f6ca);display:flex;align-items:center;justify-content:center;font-size:28px;color:#1b7a4b;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+    aside .card{margin-bottom:20px}
+    .highlight-box{background:var(--soft);padding:14px;border-radius:12px;color:var(--primary);font-weight:500;margin-top:10px}
+    @media(max-width:920px){main{grid-template-columns:1fr}nav{flex-wrap:wrap;gap:10px;justify-content:center}}
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="logo-circle">B</div>
+        <div class="brand">
+          <h1>Besos</h1>
+          <div class="slogan">La dulzura de tu vida</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#vision">Visión</a>
+        <a href="#mision">Misión</a>
+        <a href="#objetivo">Objetivo</a>
+        <a href="#sustentabilidad">Ecofriendly</a>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <section id="nosotros" class="card">
+          <h2>Sobre nosotros</h2>
+          <p>En <strong>Besos</strong> creemos que un alfajor no es solo un dulce: es un gesto de cariño, un recuerdo familiar y una forma de compartir felicidad. Desde nuestra fundación trabajamos para que cada producto represente calidad, tradición y un toque artesanal único.</p>
+          <p>Seleccionamos ingredientes de primera calidad y elaboramos cada alfajor con detalle y amor, buscando emocionar a quienes los reciben.</p>
+        </section>
+
+        <section id="vision" class="card">
+          <h2>Visión</h2>
+          <p>Convertirnos en la marca de alfajores más querida de Argentina y Latinoamérica, reconocida no solo por su sabor artesanal sino también por su capacidad de conectar personas y celebrar momentos significativos.</p>
+        </section>
+
+        <section id="mision" class="card">
+          <h2>Misión</h2>
+          <p>Endulzar la vida de las personas creando alfajores de excelencia, innovando en presentaciones y campañas que inviten a regalar sonrisas, abrazos y besos a través de nuestros productos.</p>
+        </section>
+
+        <section id="objetivo" class="card">
+          <h2>Objetivo</h2>
+          <ul class="list">
+            <li>Garantizar frescura y calidad constante.</li>
+            <li>Ampliar nuestra presencia en tiendas físicas y digitales.</li>
+            <li>Impulsar ediciones especiales para fechas icónicas como el Día de la Madre.</li>
+            <li>Fomentar la fidelidad de clientes con programas exclusivos.</li>
+          </ul>
+        </section>
+
+        <section id="sustentabilidad" class="card">
+          <h2>Compromiso Ecofriendly</h2>
+          <p>Entendemos que la dulzura también implica cuidar nuestro planeta. Por eso, en <strong>Besos</strong> asumimos un compromiso real con la sostenibilidad:</p>
+          <div class="highlight-box">🌱 Ingredientes locales y responsables que reducen huella de transporte.</div>
+          <div class="highlight-box">📦 Empaques reciclables y reutilizables, con diseños innovadores.</div>
+          <div class="highlight-box">⚡ Procesos de producción eficientes que minimizan energía y residuos.</div>
+          <p style="margin-top:10px">Además, llevamos adelante campañas como <em>“Un Beso, un árbol”</em>, donde parte de nuestras ventas se destinan a proyectos de reforestación.</p>
+        </section>
+
+        <section class="card" style="text-align:center">
+          <h2>Conocé nuestros productos</h2>
+          <p>Descubrí nuestra variedad de alfajores y ediciones especiales para cada ocasión.</p>
+          <a class="cta" href="#">Explorar catálogo</a>
+        </section>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Nuestros valores</h3>
+          <span class="pill">Calidad</span>
+          <span class="pill">Cercanía</span>
+          <span class="pill">Transparencia</span>
+          <span class="pill">Sustentabilidad</span>
+        </div>
+
+        <div class="card">
+          <h3>Ecofriendly</h3>
+          <div class="eco">
+            <div class="icon">🌍</div>
+            <div>
+              <strong>Producción consciente</strong>
+              <p style="font-size:14px;margin-top:6px">Reducimos el plástico, optimizamos energía y comunicamos nuestros avances de forma transparente.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Edición Día de la Madre</h3>
+          <p style="font-size:14px;color:#555">Cajas temáticas con diseño floral, tarjeta personalizable y envíos prioritarios para sorprender a mamá con <em>la dulzura de su vida</em>.</p>
+        </div>
+
+        <div class="card">
+          <h3>Testimonios</h3>
+          <p style="font-size:14px;color:#444;margin:6px 0"><em>“Los alfajores de Besos son magia en cada bocado. Siempre los elegimos para nuestras reuniones.”</em><br><strong>- Familia G.</strong></p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      © 2025 Besos — La dulzura de tu vida • Hecho con cariño en Argentina
+    </footer>
+  </div>
+</body>
+</html>
