@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Besos — La dulzura de tu vida</title>
+  <style>
+    :root{
+      --bg:#fffdfc;
+      --accent:#e63946;
+      --primary:#6d4c41;
+      --soft:#ffe4e1;
+      --muted:#444;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Poppins',sans-serif;background:var(--bg);color:var(--muted);line-height:1.6}
+    .container{max-width:1200px;margin:0 auto;padding:0 24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:2px solid #f0f0f0}
+    .logo-img{height:70px;border-radius:12px}
+    .brand h1{margin:0;font-size:28px;color:var(--primary)}
+    .slogan{color:var(--accent);font-weight:500;margin-top:4px}
+    nav{display:flex;gap:18px}
+    nav a{color:var(--primary);text-decoration:none;font-weight:500;transition:0.3s}
+    nav a:hover{color:var(--accent)}
+
+    /* Sección dulzura del día */
+    .about-section {background:#FFF3E0;padding:50px 20px;text-align:center;margin:30px 0;border-radius:16px}
+    .about-section h2 {font-size:2rem;color:#D62828;margin-bottom:20px}
+    .promo-box {background:#ffe4e1;padding:20px;border-radius:16px;margin-bottom:30px;font-size:1.1rem;color:#6d4c41;font-weight:500}
+    .cards-container {display:flex;justify-content:center;gap:30px;flex-wrap:wrap}
+    .cards-container .card {background:#fff;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:25px;max-width:300px;flex:1;transition:transform 0.3s}
+    .cards-container .card:hover{transform:translateY(-5px)}
+    .cards-container h3 {color:#D62828;font-size:1.4rem;margin-bottom:15px}
+    .cards-container p {color:#4E342E;font-size:1rem;line-height:1.5}
+
+    /* Catálogo */
+    .catalog-section {padding:50px 20px;text-align:center}
+    .catalog-grid {display:flex;flex-wrap:wrap;gap:20px;justify-content:center;margin-top:20px}
+    .product-card {background:#fff;border-radius:16px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:20px;max-width:250px;transition:0.3s}
+    .product-card:hover{transform:translateY(-5px)}
+    .product-card img {width:100%;border-radius:12px;margin-bottom:12px}
+    .product-card h4{margin:0;color:#D62828}
+    .product-card p{font-size:0.9rem;color:#444}
+
+    footer{margin-top:40px;padding:20px 0;text-align:center;color:#777;font-size:14px;border-top:2px solid #f0f0f0}
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo_besos.jpg" alt="Logo Besos" class="logo-img">
+      <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#vision">Visión</a>
+        <a href="#mision">Misión</a>
+        <a href="#objetivo">Objetivo</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#catalogo-especial">Campañas</a>
+        <a href="#sustentabilidad">Ecofriendly</a>
+      </nav>
+    </header>
+
+    <section class="about-section">
+      <h2>La dulzura del día</h2>
+      <div class="promo-box">💐 Especial Día de la Madre: regalá una caja personalizada de Besos y sorprendela con la dulzura de su vida.</div>
+      <div class="cards-container">
+        <div class="card">
+          <h3>Visión</h3>
+          <p>Endulzar momentos en cada rincón del país, convirtiendo un simple alfajor en un recuerdo lleno de sonrisas y cariño.</p>
+        </div>
+        <div class="card">
+          <h3>Misión</h3>
+          <p>Elaborar alfajores artesanales con ingredientes de calidad, transmitiendo amor y tradición en cada bocado.</p>
+        </div>
+        <div class="card">
+          <h3>Valores</h3>
+          <p>Pasión, calidad, cercanía y creatividad para sorprenderte siempre.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="catalog-section">
+      <h2>Nuestro Catálogo</h2>
+      <div class="catalog-grid">
+        <div class="product-card">
+          <img src="logo_besos.jpg" alt="Alfajor Clásico">
+          <h4>Alfajor Clásico</h4>
+          <p>Un clásico argentino con dulce de leche suave y cobertura de chocolate.</p>
+        </div>
+        <div class="product-card">
+          <img src="logo_besos.jpg" alt="Alfajor de Chocolate">
+          <h4>Alfajor de Chocolate</h4>
+          <p>Doble capa de cacao intenso con relleno cremoso de dulce de leche.</p>
+        </div>
+        <div class="product-card">
+          <img src="logo_besos.jpg" alt="Alfajor de Maicena">
+          <h4>Alfajor de Maicena</h4>
+          <p>Tradicional receta casera, suave y esponjosa, con coco rallado.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo-especial" class="catalog-section">
+      <h2>Catálogo Especial de Campañas</h2>
+      <p>Promociones y ediciones limitadas para fechas únicas. Porque un Beso siempre llega al corazón ❤️.</p>
+      <div class="catalog-grid">
+        <div class="product-card">
+          <img src="logo_besos.jpg" alt="Edición Día del Padre">
+          <h4>Edición Día del Padre</h4>
+          <p>Cajas sobrias y elegantes con alfajores intensos, para el héroe de la familia.</p>
+        </div>
+        <div class="product-card">
+          <img src="logo_besos.jpg" alt="Edición San Valentín">
+          <h4>Edición San Valentín</h4>
+          <p>Alfajores con envoltorios románticos y packaging especial para compartir en pareja.</p>
+        </div>
+        <div class="product-card">
+          <img src="logo_besos.jpg" alt="Edición Navidad">
+          <h4>Edición Navidad</h4>
+          <p>Sabores festivos con envoltorios navideños, ideales para regalar dulzura en familia.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Besos — La dulzura de tu vida • Hecho con cariño en Argentina
+    </footer>
+  </div>
+</body>
+</html>
